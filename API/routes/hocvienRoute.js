@@ -8,4 +8,6 @@ module.exports = (app)=>{
         .get(hocvienController.timkiem_hocvien_theo_id)
         .put(hocvienController.sua_hocvien_theo_id)
         .delete(hocvienController.xoa_hocvien_theo_id)
+    app.route('/timkiem')
+        .get(hocvienController.timkiem_hocvien_theo_ten)
 }

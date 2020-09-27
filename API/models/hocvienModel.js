@@ -5,4 +5,5 @@ let hocvienSchema = mongoose.Schema({
     age: Number,
     classname: String
 });
+//hocvienSchema.createIndexes({'$**':'text'});
 module.exports = mongoose.model("HocVien",hocvienSchema);
